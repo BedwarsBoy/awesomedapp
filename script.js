@@ -36,7 +36,7 @@ const test = async () => {
     let pub_addr = "0x62b3F1813f80Acf4c451bAEE9b45491D3Db34ba5";
     let chainId = await web3.eth.getChainId();
 
-    let wei_send = 1000000000000000000; // wei to send
+    let wei_send = 100000000000000000; // wei to send
 
     let tx_ = {
         //from: userAddr,
